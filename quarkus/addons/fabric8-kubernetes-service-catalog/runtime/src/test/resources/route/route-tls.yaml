@@ -29,7 +29,7 @@ metadata:
   name: test-route-tls
   uid: d7a1beae-13ec-44fe-93d6-ea357d87bc0a
   ownerReferences:
-  - apiVersion: app.kiegroup.org/v2
+  - apiVersion: app.kubesmarts.org/v2
     kind: KieApp
     name: test-tls
     uid: 5f86c7fb-e521-48ad-9286-9209e992645d

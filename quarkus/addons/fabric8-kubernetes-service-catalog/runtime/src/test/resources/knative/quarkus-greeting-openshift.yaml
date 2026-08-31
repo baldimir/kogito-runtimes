@@ -33,12 +33,12 @@ spec:
     metadata:
       annotations:
         client.knative.dev/updateTimestamp: '2022-08-17T13:58:53Z'
-        client.knative.dev/user-image: kiegroup/serverless-workflow-greeting-quarkus:1.0
+        client.knative.dev/user-image: kubesmarts/serverless-workflow-greeting-quarkus:1.0
       creationTimestamp:
     spec:
       containerConcurrency: 0
       containers:
-        - image: kiegroup/serverless-workflow-greeting-quarkus:1.0
+        - image: kubesmarts/serverless-workflow-greeting-quarkus:1.0
           name: user-container
           readinessProbe:
             successThreshold: 1

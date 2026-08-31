@@ -242,7 +242,7 @@ boolean shouldStageArtifacts() {
 }
 
 boolean shouldDeployToRepository() {
-    return env.MAVEN_DEPLOY_REPOSITORY && env.MAVEN_REPO_CREDS_ID && getGitAuthor() == 'kiegroup'
+    return env.MAVEN_DEPLOY_REPOSITORY && env.MAVEN_REPO_CREDS_ID && getGitAuthor() == 'kubesmarts'
 }
 
 boolean isRelease() {
@@ -336,5 +336,5 @@ String getWorkflowCommonDeploymentPath() {
 }
 
 String getDataIndexEphemeralReleaseImage() {
-    return "quay.io/kiegroup/kogito-data-index-ephemeral:${util.getMajorMinorVersion(getProjectVersion())}"
+    return "quay.io/kubesmarts/kogito-data-index-ephemeral:${util.getMajorMinorVersion(getProjectVersion())}"
 }

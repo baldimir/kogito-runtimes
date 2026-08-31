@@ -28,4 +28,4 @@ Deadline use case. <!-- TODO: reference needed -->
 
 See the following examples to explore more about this add-on:
 
-- [process-usertasks-custom-lifecycle-quarkus](https://github.com/kiegroup/kogito-examples/tree/stable/kogito-quarkus-examples/process-usertasks-custom-lifecycle-quarkus)
+- [process-usertasks-custom-lifecycle-quarkus](https://github.com/kubesmarts/kogito-examples/tree/stable/kogito-quarkus-examples/process-usertasks-custom-lifecycle-quarkus)

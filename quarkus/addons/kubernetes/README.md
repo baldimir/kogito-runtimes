@@ -68,6 +68,6 @@ public class EndpointFetcher {
 
 ## Kubernetes Service Discovery
 
-The Service discovery documentation can be found at this [link](https://kiegroup.github.io/kogito-docs/serverlessworkflow/latest/cloud/kubernetes-service-discovery.html).
+The Service discovery documentation can be found at this [link](https://kubesmarts.github.io/kogito-docs/serverlessworkflow/latest/cloud/kubernetes-service-discovery.html).
 
 

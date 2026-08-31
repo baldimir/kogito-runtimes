@@ -110,4 +110,4 @@ Add this section to your `pom.xml` file:
 ## Examples
 
 See the following examples to explore more about this capability:
-  [process-instance-migration-quarkus](https://github.com/kiegroup/kogito-examples/tree/main/kogito-quarkus-examples/process-instance-migration-quarkus)
+  [process-instance-migration-quarkus](https://github.com/kubesmarts/kogito-examples/tree/main/kogito-quarkus-examples/process-instance-migration-quarkus)

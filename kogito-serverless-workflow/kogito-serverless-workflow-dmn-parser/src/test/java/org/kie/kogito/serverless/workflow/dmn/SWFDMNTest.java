@@ -69,7 +69,7 @@ public class SWFDMNTest {
         return workflow("PlayingWithDMN")
                 .start(operation().action(call(custom("DMNTest", "dmn").metadata(DMNTypeHandler.FILE, "classpath:valid_models/DMNv1_x/Traffic Violation Simple.dmn")
                         .metadata(DMNTypeHandler.MODEL, "Traffic Violation")
-                        .metadata(DMNTypeHandler.NAMESPACE, "https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF"), args)))
+                        .metadata(DMNTypeHandler.NAMESPACE, "https://github.com/kubesmarts/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF"), args)))
                 .end().build();
     }
 }

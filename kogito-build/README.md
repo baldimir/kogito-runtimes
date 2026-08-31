@@ -107,5 +107,5 @@ _**I'm a contributor, which BOM should I use?**_
 If you're developing for a specific runtime, add your dependencies to the respective runtime. Otherwise, add the
 dependency to Kogito Dependencies BOM. If you need to add a new plugin or any build specifics, add this new
 configuration to Kogito Build Parent BOM.
-Read [this guide](https://github.com/kiegroup/droolsjbpm-build-bootstrap/blob/main/README.md#requirements-for-dependencies)
+Read [this guide](https://github.com/kubesmarts/droolsjbpm-build-bootstrap/blob/main/README.md#requirements-for-dependencies)
 before adding a new dependency to **any** BOM. 

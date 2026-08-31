@@ -110,7 +110,7 @@ knowledge of the Kogito engine internals. Then follow these steps:
 4. If your capability can have multiple implementations, add at least one flavor under `{runtime}/addons/{capability}`
    module. See [`monitoring`](../quarkus/addons/monitoring) as an example
 5. Document each top-level module with a `README.md` and make it clear what your add-on is capable to do
-6. Create an example of usage in the [`kogito-examples`](https://github.com/kiegroup/kogito-examples) repository
+6. Create an example of usage in the [`kogito-examples`](https://github.com/kubesmarts/kogito-examples) repository
 
 ### Add a new Capability Implementation to Kogito
 
@@ -123,7 +123,7 @@ the runtimes supported by Kogito:
 2. Try to code with the runtime in mind and leverage their libraries. For Quarkus, see
    the [Quarkus Guides](https://quarkus.io/guides/) page to figure how to interact with the given technology.
 3. Document the implementation with a `README.md` and make it clear how to use it
-4. Create an example of usage in the [`kogito-examples`](https://github.com/kiegroup/kogito-examples) repository
+4. Create an example of usage in the [`kogito-examples`](https://github.com/kubesmarts/kogito-examples) repository
 
 If you have questions, feel free to reach out to us at the [KIE Zulip Channel](https://kie.zulipchat.com/#).
 

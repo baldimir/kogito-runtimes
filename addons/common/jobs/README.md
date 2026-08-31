@@ -27,5 +27,5 @@ to find out more.
 
 See the following examples to explore more about this capability:
 
-- [process-timer-quarkus](https://github.com/kiegroup/kogito-examples/tree/stable/kogito-quarkus-examples/process-timer-quarkus)
-- [process-usertasks-timer-quarkus-with-console](https://github.com/kiegroup/kogito-examples/tree/stable/kogito-quarkus-examples/process-usertasks-timer-quarkus-with-console)
+- [process-timer-quarkus](https://github.com/kubesmarts/kogito-examples/tree/stable/kogito-quarkus-examples/process-timer-quarkus)
+- [process-usertasks-timer-quarkus-with-console](https://github.com/kubesmarts/kogito-examples/tree/stable/kogito-quarkus-examples/process-usertasks-timer-quarkus-with-console)

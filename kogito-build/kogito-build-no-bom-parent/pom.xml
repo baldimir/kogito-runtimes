@@ -960,7 +960,7 @@
         <sonar.java.source>${maven.compiler.release}</sonar.java.source>
         <!--suppress UnresolvedMavenProperty -->
         <sonar.login>${env.SONARCLOUD_TOKEN}</sonar.login>
-        <sonar.organization>kiegroup</sonar.organization>
+        <sonar.organization>kubesmarts</sonar.organization>
         <!-- KOGITO-4895 keep it here in exact form <sonar.exclusions></sonar.exclusions>,
           if removed exclusions are not scoped to a particular defining module.
         -->

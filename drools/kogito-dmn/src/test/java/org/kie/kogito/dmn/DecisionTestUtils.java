@@ -32,7 +32,7 @@ public class DecisionTestUtils {
     public static final ObjectMapper MAPPER = new ObjectMapper();
 
     public static final String MODEL_RESOURCE = "/TrafficViolation.dmn";
-    public static final String MODEL_NAMESPACE = "https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF";
+    public static final String MODEL_NAMESPACE = "https://github.com/kubesmarts/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF";
     public static final String MODEL_NAME = "Traffic Violation";
 
     public static final String FIRST_DECISION_NODE_ID = "_4055D956-1C47-479C-B3F4-BAEB61F1C929";

@@ -5,7 +5,7 @@ This is MIDSTREAM if you want to send your PR to UPSTREAM use https://github.com
 Please make sure that your PR meets the following requirements:
 
 - [ ] You have read the [contributors guide](CONTRIBUTING.md)
-- [ ] Your code is properly formatted according to [this configuration](https://github.com/kiegroup/kogito-runtimes/tree/main/kogito-build/kogito-ide-config)
+- [ ] Your code is properly formatted according to [this configuration](https://github.com/kubesmarts/kogito-runtimes/tree/main/kogito-build/kogito-ide-config)
 - [ ] Pull Request title is properly formatted: `SRVLOGIC-XYZ Subject`
 - [ ] Pull Request title contains the target branch if not targeting main: `[0.9.x] SRVLOGIC-XYZ Subject`
 - [ ] Pull Request contains link to the JIRA issue
@@ -18,7 +18,7 @@ Please make sure that your PR meets the following requirements:
 How to replicate CI configuration locally?
 </summary>
 
-Build Chain tool does "simple" maven build(s), the builds are just Maven commands, but because the repositories relates and depends on each other and any change in API or class method could affect several of those repositories there is a need to use [build-chain tool](https://github.com/kiegroup/github-action-build-chain) to handle cross repository builds and be sure that we always use latest version of the code for each repository.
+Build Chain tool does "simple" maven build(s), the builds are just Maven commands, but because the repositories relates and depends on each other and any change in API or class method could affect several of those repositories there is a need to use [build-chain tool](https://github.com/kubesmarts/github-action-build-chain) to handle cross repository builds and be sure that we always use latest version of the code for each repository.
  
-[build-chain tool](https://github.com/kiegroup/github-action-build-chain) is a build tool which can be used on command line locally or in Github Actions workflow(s), in case you need to change multiple repositories and send multiple dependent pull requests related with a change you can easily reproduce the same build by executing it on Github hosted environment or locally in your development environment. See [local execution](https://github.com/kiegroup/github-action-build-chain#local-execution) details to get more information about it.
+[build-chain tool](https://github.com/kubesmarts/github-action-build-chain) is a build tool which can be used on command line locally or in Github Actions workflow(s), in case you need to change multiple repositories and send multiple dependent pull requests related with a change you can easily reproduce the same build by executing it on Github hosted environment or locally in your development environment. See [local execution](https://github.com/kubesmarts/github-action-build-chain#local-execution) details to get more information about it.
 </details>

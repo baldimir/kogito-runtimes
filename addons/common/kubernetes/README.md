@@ -33,8 +33,8 @@ An example of usage could be a custom process Service Task to invoke the discove
 specific service, turning it possible to make HTTP calls to this service in runtime.
 
 Although an approach like this is possible, it's not recommended. The Discovery Service is meant to be used internally
-by other components such as the [Rest Work Item handler](https://github.com/kiegroup/kogito-runtimes/tree/main/kogito-workitems/kogito-rest-workitem) or
-the [Open API](https://github.com/kiegroup/kogito-runtimes/tree/main/kogito-workitems/kogito-openapi-workitem) one.
+by other components such as the [Rest Work Item handler](https://github.com/kubesmarts/kogito-runtimes/tree/main/kogito-workitems/kogito-rest-workitem) or
+the [Open API](https://github.com/kubesmarts/kogito-runtimes/tree/main/kogito-workitems/kogito-openapi-workitem) one.
 
 ### Service Discovery Cache
 
@@ -93,5 +93,5 @@ subjects:
 
 ### Discovery Service with custom WIH
 
-- [The onboarding Example](https://github.com/kiegroup/kogito-examples/tree/stable/kogito-quarkus-examples/onboarding-example) uses this add-on
+- [The onboarding Example](https://github.com/kubesmarts/kogito-examples/tree/stable/kogito-quarkus-examples/onboarding-example) uses this add-on
   to discover other Kogito Process deployed in the same Kubernetes cluster via a custom Work Item Handler.

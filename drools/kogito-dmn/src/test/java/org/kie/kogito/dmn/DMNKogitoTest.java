@@ -36,7 +36,7 @@ public class DMNKogitoTest {
         DMNRuntime dmnRuntime = DMNKogito.createGenericDMNRuntime(Collections.emptySet(), false, new InputStreamReader(DMNKogitoTest.class.getResourceAsStream("TrafficViolation.dmn")));
         assertThat(dmnRuntime.getModels()).hasSize(1);
 
-        final String TRAFFIC_VIOLATION_NS = "https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF";
+        final String TRAFFIC_VIOLATION_NS = "https://github.com/kubesmarts/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF";
         final String TRAFFIC_VIOLATION_NAME = "Traffic Violation";
         DecisionModel kogitoAPI = new DmnDecisionModel(dmnRuntime, TRAFFIC_VIOLATION_NS, TRAFFIC_VIOLATION_NAME);
         assertThat(kogitoAPI.getDMNModel().getNamespace()).isEqualTo(TRAFFIC_VIOLATION_NS);

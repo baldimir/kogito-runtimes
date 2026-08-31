@@ -40,7 +40,7 @@ jobs:
 
     steps:
       - name: Clean Disk Space
-        uses: kiegroup/kie-ci/.ci/actions/ubuntu-disk-space@main
+        uses: kubesmarts/kie-ci/.ci/actions/ubuntu-disk-space@main
 
       - name: Set up Java ${{ env.JAVA_VERSION }}
         uses: actions/setup-java@v6
@@ -100,7 +100,7 @@ jobs:
 
     steps:
       - name: Clean Disk Space
-        uses: kiegroup/kie-ci/.ci/actions/ubuntu-disk-space@main
+        uses: kubesmarts/kie-ci/.ci/actions/ubuntu-disk-space@main
 
       - name: Set up Java ${{ env.JAVA_VERSION }}
         uses: actions/setup-java@v6
@@ -136,7 +136,7 @@ jobs:
             clean verify
 
       - name: JUnit Report
-        uses: kiegroup/kogito-pipelines/.ci/actions/action-junit-report@main
+        uses: kubesmarts/kogito-pipelines/.ci/actions/action-junit-report@main
         if: always()
         with:
           report_paths: '**/*-reports/TEST-*.xml'
@@ -149,7 +149,7 @@ jobs:
 
     steps:
       - name: Clean Disk Space
-        uses: kiegroup/kie-ci/.ci/actions/ubuntu-disk-space@main
+        uses: kubesmarts/kie-ci/.ci/actions/ubuntu-disk-space@main
 
       - name: Set up Java ${{ env.JAVA_VERSION }}
         uses: actions/setup-java@v6
@@ -177,7 +177,7 @@ jobs:
       - name: Checkout kogito-examples
         uses: actions/checkout@v7
         with:
-          repository: kiegroup/kogito-examples
+          repository: kubesmarts/kogito-examples
           ref: main
           path: kogito-examples
 
@@ -193,7 +193,7 @@ jobs:
             clean verify
 
       - name: JUnit Report
-        uses: kiegroup/kogito-pipelines/.ci/actions/action-junit-report@main
+        uses: kubesmarts/kogito-pipelines/.ci/actions/action-junit-report@main
         if: always()
         with:
           report_paths: '**/*-reports/TEST-*.xml'
